@@ -25,7 +25,7 @@ const Home = () => {
   const [filterCatageroy, setFilterCatageroy] = useState("")
   const fetchData = async () => {
     try {
-      const response = await axios.post('http://localhost:5001/data');
+      const response = await axios.post('https://mern1-project.vercel.app/data');
       console.log('Response Data:', response.data);
       setFood_itemsData(response.data[1]);
       setfoodCategoryData(response.data[0]);
