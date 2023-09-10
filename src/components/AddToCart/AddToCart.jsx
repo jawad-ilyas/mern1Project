@@ -14,7 +14,7 @@ const AddToCart = () => {
   const handleCheckOut = async () => {
     const email = localStorage.getItem("email");
     console.log(email)
-    let response = await fetch("http://localhost:5001/OrderData", {
+    let response = await fetch("https://mern1-project.vercel.app/OrderData", {
       method: "post",
       headers: {
         "Content-Type": "application/json"
