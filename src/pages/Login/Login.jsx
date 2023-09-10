@@ -10,7 +10,7 @@ const Login = () => {
     const handleOnSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post("http://localhost:5001/login", {
+            const response = await axios.post("https://mern1-project.vercel.app/login", {
                 password: credientials.password,
                 email: credientials.email
             },
