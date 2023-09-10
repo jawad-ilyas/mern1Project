@@ -7,7 +7,7 @@ const SignUp = () => {
     const [credential, setCredential] = useState({ name: "", email: "", password: "", location: "" })
     const handleOnSubmit = async (event) => {
         event.preventDefault();
-        const response = await fetch("http://localhost:5001/Signup", {
+        const response = await fetch("https://mern1-project.vercel.app/Signup", {
             method: "post",
             headers: {
                 "Content-Type": "application/json"
