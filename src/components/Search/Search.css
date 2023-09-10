@@ -1,0 +1,6 @@
+/* Custom CSS class */
+.bg-custom-image {
+    background-image: url('https://imgs.search.brave.com/MZFSULeSguMkTNMkewLU5K5ZvCi2rwQgYHpjdUNnkdo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjcx/ODg0LmpwZw'); /* Replace with the actual path to your image */
+    background-size: cover; /* Optional: Adjust the background size as needed */
+  }
+  
