@@ -6,7 +6,7 @@ const port = 5001;
 const mongoDb = require('./db')
 mongoDb();
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+    res.setHeader("Access-Control-Allow-Origin", "https://mern1-project.vercel.app/");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With , Content-Type , Accept"
